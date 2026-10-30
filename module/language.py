@@ -13,7 +13,7 @@ class Language(Enum):
     UA = 4  # ukrainian
 
 
-_language = Language.EN
+_language = Language.ZH
 
 
 def set_language(language: Language):
@@ -98,7 +98,7 @@ translations = {
         "Невірний формат команди. Будь ласка, використовуйте /set_language en/ru/zh/ua",
     ],
     "Language set to English": [
-        "语言设置为中文",
+        "语言设置为英文",
         "Выбран английский язык",
         "Обрано англійську мову",
     ],
