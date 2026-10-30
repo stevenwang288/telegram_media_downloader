@@ -398,7 +398,7 @@ class Application:
         self.web_host: str = "0.0.0.0"
         self.web_port: int = 5000
         self.max_download_task: int = 5
-        self.language = Language.EN
+        self.language = Language.ZH
         self.after_upload_telegram_delete: bool = True
         self.web_login_secret: str = ""
         self.debug_web: bool = False
@@ -509,7 +509,7 @@ class Application:
             "max_concurrent_transmissions", self.max_concurrent_transmissions
         )
 
-        language = _config.get("language", "EN")
+        language = _config.get("language", "ZH")
 
         try:
             self.language = Language[language.upper()]
