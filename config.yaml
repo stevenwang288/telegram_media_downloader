@@ -1,5 +1,7 @@
 api_hash: your_api_hash
 api_id: your_api_id
+# 界面语言: ZH=中文 EN=English RU=Русский UA=Українська
+language: ZH
 chat:
 - chat_id: telegram_chat_id
   last_read_message_id: 0
